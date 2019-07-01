@@ -46,11 +46,11 @@ var orm = {
     });
   },
   insertOne: function(table, cols, vals, cb) {
-    var queryString = `INSERT INTO ${table} ('${cols.toString()}') VALUES ("${printQuestionMarks(vals.length)}")`;
+    var queryString = `INSERT INTO ${table} (${cols.toString()}) VALUES (${printQuestionMarks(vals.length)})`;
 
     console.log(queryString);
 
-    connection.query(queryString, function(err, result) {
+    connection.query(queryString, vals, function(err, result) {
       if (err) {
         throw err;
       }
