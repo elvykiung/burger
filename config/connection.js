@@ -11,9 +11,9 @@ if (env) {
   connection = mysql.createConnection({
     host: 'k2pdcy98kpcsweia.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
     port: 3306,
-    user: 'zhr7plgjdanxnzlc',
-    password: 'g9fzsmqz6hakjo8r',
-    database: 'qxs7ord2i9y8cbpu'
+    user: 'xbiv4bstotfs29ey',
+    password: 'h6t26an1xmfikc2m',
+    database: 'xly5haa284ejy44q'
   });
 }
 // Make connection.

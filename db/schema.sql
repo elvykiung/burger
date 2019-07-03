@@ -1,5 +1,5 @@
-CREATE DATABASE qxs7ord2i9y8cbpu;
-USE qxs7ord2i9y8cbpu;
+CREATE DATABASE xly5haa284ejy44q;
+USE xly5haa284ejy44q;
 
 CREATE TABLE burgers
 (
