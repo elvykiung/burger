@@ -9,11 +9,11 @@ if (env) {
   connection = mysql.createConnection(env);
 } else {
   connection = mysql.createConnection({
-    host: 'localhost',
+    host: 'k2pdcy98kpcsweia.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
     port: 3306,
-    user: 'root',
-    password: '0815',
-    database: 'burgers_db'
+    user: 'zhr7plgjdanxnzlc',
+    password: 'g9fzsmqz6hakjo8r',
+    database: 'qxs7ord2i9y8cbpu'
   });
 }
 // Make connection.
