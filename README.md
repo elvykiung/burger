@@ -27,4 +27,4 @@ Project is created with:
 
 - Clone the repo and npm install
 - Portfolio link: https://elvykiung.github.io/
-- App Link: https://afternoon-reaches-94783.herokuapp.com/
+- App Link: https://quiet-bastion-63482.herokuapp.com/
